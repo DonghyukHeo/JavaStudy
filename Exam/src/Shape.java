@@ -28,29 +28,8 @@ public class Shape {
 		return this.width * this.height;
 	}
 	
-	public int getArea(int x, int y) {
-		//this.setWidth(x);
-		//this.setHeight(y);
-		
-		this.width = x;
-		this.height = y;
-		
-		//return this.getArea();
-		return this.width * this.height;
-	}	
-	
 	public int getRound() {
 		return this.width * 2 + this.height * 2;
-	}
-	
-	public int getRound(int x, int y) {
-		//this.setWidth(x);
-		//this.setHeight(y);
-		
-		this.width = x;
-		this.height = y;
-		
-		return this.getRound();
 	}
 
 	@Override
