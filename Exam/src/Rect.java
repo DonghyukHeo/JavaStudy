@@ -22,6 +22,7 @@ public class Rect extends Shape {
 	
 	//Exam0502 관련 getArea 메서드 Overload
 	public int getArea(int x, int y) {
+		//부모 클래스에 정의된 width, height에 값을 설정
 		this.setWidth(x);
 		this.setHeight(y);
 		
@@ -41,6 +42,7 @@ public class Rect extends Shape {
 
 	//Exam0502 관련 getRound 메서드 Overload
 	public int getRound(int x, int y) {
+		//부모 클래스에 정의된 width, height에 값을 설정
 		this.setWidth(x);
 		this.setHeight(y);
 
